@@ -4,7 +4,7 @@
 const DEEPSEEK_API_URL = 'https://api.deepseek.com/v1/chat/completions';
 
 // 目标API的基础URL - 也可以从环境变量获取
-const TARGET_API_BASE = 'https://danmu.api.janelink.cn';
+const TARGET_API_BASE = 'https://danmu.api.dlushu.dpdns.org';
 
 export default {
   async fetch(request, env, ctx) {
